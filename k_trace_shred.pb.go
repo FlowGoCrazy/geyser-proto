@@ -2,9 +2,9 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: flow_trace_shred.proto
+// source: trace_shred.proto
 
-package proto
+package geyser_proto
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

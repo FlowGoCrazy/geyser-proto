@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: flow_shredstream.proto
+// source: shredstream.proto
 
-package proto
+package geyser_proto
 
 import (
 	context "context"
@@ -107,5 +107,5 @@ var Shredstream_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "flow_shredstream.proto",
+	Metadata: "shredstream.proto",
 }

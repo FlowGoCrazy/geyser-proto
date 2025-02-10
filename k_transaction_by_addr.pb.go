@@ -2,9 +2,9 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: flow_transaction_by_addr.proto
+// source: transaction_by_addr.proto
 
-package proto
+package geyser_proto
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

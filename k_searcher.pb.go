@@ -2,9 +2,9 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: flow_searcher.proto
+// source: searcher.proto
 
-package proto
+package geyser_proto
 
 import (
 	"google.golang.org/protobuf/reflect/protoreflect"

@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: flow_auth.proto
+// source: auth.proto
 
-package proto
+package geyser_proto
 
 import (
 	context "context"
@@ -185,5 +185,5 @@ var AuthService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "flow_auth.proto",
+	Metadata: "auth.proto",
 }

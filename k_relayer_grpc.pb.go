@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: flow_relayer.proto
+// source: relayer.proto
 
-package proto
+package geyser_proto
 
 import (
 	"context"
@@ -178,5 +178,5 @@ var Relayer_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "flow_relayer.proto",
+	Metadata: "relayer.proto",
 }
