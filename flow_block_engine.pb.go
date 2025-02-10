@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: block_engine.proto
+// source: flow_block_engine.proto
 
 package proto
 

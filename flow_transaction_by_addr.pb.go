@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: transaction_by_addr.proto
+// source: flow_transaction_by_addr.proto
 
 package proto
 

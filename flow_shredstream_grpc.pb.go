@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: shredstream.proto
+// source: flow_shredstream.proto
 
 package proto
 
@@ -107,5 +107,5 @@ var Shredstream_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "shredstream.proto",
+	Metadata: "flow_shredstream.proto",
 }

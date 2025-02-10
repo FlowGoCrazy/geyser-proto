@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: searcher.proto
+// source: flow_searcher.proto
 
 package proto
 
@@ -435,5 +435,5 @@ var SearcherService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "searcher.proto",
+	Metadata: "flow_searcher.proto",
 }

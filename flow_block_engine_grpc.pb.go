@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: block_engine.proto
+// source: flow_block_engine.proto
 
 package proto
 
@@ -242,7 +242,7 @@ var BlockEngineValidator_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "block_engine.proto",
+	Metadata: "flow_block_engine.proto",
 }
 
 const (
@@ -508,5 +508,5 @@ var BlockEngineRelayer_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "block_engine.proto",
+	Metadata: "flow_block_engine.proto",
 }

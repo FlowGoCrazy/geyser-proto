@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.25.2
-// source: relayer.proto
+// source: flow_relayer.proto
 
 package proto
 
@@ -178,5 +178,5 @@ var Relayer_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "relayer.proto",
+	Metadata: "flow_relayer.proto",
 }

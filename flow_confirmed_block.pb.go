@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.32.0
 // 	protoc        v4.25.2
-// source: confirmed_block.proto
+// source: flow_confirmed_block.proto
 
 package proto
 
